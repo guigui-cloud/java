@@ -37,7 +37,7 @@ java实验学生选课
 		course2.GetTime();
 		course2.SteTeacherName("王老师");
 		course2.GetTeacherName();      //高数课程
-    ``
+``
 ***
 
 利用在上面创建的课程中和授课教师相关的属性来创建两个教师对象：
