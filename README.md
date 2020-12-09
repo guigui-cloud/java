@@ -135,7 +135,7 @@ course2.GetTeacherName();
 		}
 ```
 
-##实验结果
+## 实验结果
 ![结果](http://chuantu.xyz/t6/741/1607526871x2073530482.png)
 
 
