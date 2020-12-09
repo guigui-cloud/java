@@ -110,7 +110,7 @@ course2.GetTeacherName();
 ```
 ***
 最后加入一个是否退课的选项：
-``java
+```java
                 System.out.println("是否退课？（请输入Y或N）");
 		Scanner in3 = new Scanner(System.in);
 		String YoN = in3.next();
