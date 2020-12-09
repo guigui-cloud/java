@@ -136,7 +136,7 @@ course2.GetTeacherName();
 ```
 
 ##实验结果
-
+<div align=center>< img width="20" height="20" src="https://github.com/guigui-cloud/java/blob/main/676aea4391684f655810fbee463f671.png"/></div>
 
 
 
