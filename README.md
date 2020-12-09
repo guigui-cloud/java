@@ -11,12 +11,12 @@ java实验学生选课
 学会使用super()，用于实例化子类；
 掌握使用Object根类的toString（）方法,应用在相关对象的信息输出中。
 
-##实验过程
-*首先依次创建好Personnel类、Students类、Teacher类，Students类和Teacher类都是Personnel类的子类，在其中提供构造方法以实现在main方法时的对象创建。。
-*然后完成Course类的编写，使其具有编号、课程名称、上课地点、时间、授课教师这几个属性。
-*最后编写含有main方法的XuankeG类，在其中将实现创建课程信息，并且实现交互式输入学生信息。
+## 实验过程
+* 首先依次创建好Personnel类、Students类、Teacher类，Students类和Teacher类都是Personnel类的子类，在其中提供构造方法以实现在main方法时的对象创建。。
+* 然后完成Course类的编写，使其具有编号、课程名称、上课地点、时间、授课教师这几个属性。
+* 最后编写含有main方法的XuankeG类，在其中将实现创建课程信息，并且实现交互式输入学生信息。
 
-##核心方法和代码
+## 核心方法和代码
 都是关于获取参数的简单方法，最后在XuankeG类中直接创建两个课程对象：
 ``Course course1 = new Course(1001);
 		course1.SetCourseName("JAVA");
