@@ -79,7 +79,7 @@ course2.GetTeacherName();
 ***
 根据学生输入的课程号来匹配所选课程信息，并将完整的选课信息打印出来：
 ```java
-                        if(SelectedID == 1001) {
+                if(SelectedID == 1001) {
 			System.out.println("以下是你的选课信息：");
 			System.out.println("学生姓名："+student.name);
 			System.out.println("学生ID："+student.id);
