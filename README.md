@@ -18,15 +18,16 @@ java实验学生选课
 
 ## 核心方法和代码
 都是关于获取参数的简单方法，最后在XuankeG类中直接创建两个课程对象：
-    ``Course course1 = new Course(1001);
+```java
+Course course1 = new Course(1001);
 		course1.SetCourseName("JAVA");
 		course1.GetCourseName();
 		course1.SetClassroom("101");
 		course1.GetClassroom();
 		course1.SetTime("8:00——10.00");
 		course1.GetTime();
-		course1.SteTeacherName("张老师");
-		course1.GetTeacherName();       //java课程
+		course1.SteTeacherName("张世博");
+		course1.GetTeacherName();
 		
 		Course course2 = new Course(1002);
 		course2.SetCourseName("高等数学");
@@ -35,13 +36,13 @@ java实验学生选课
 		course2.GetClassroom();
 		course2.SetTime("8:00——10.00");
 		course2.GetTime();
-		course2.SteTeacherName("王老师");
-		course2.GetTeacherName();      //高数课程
-``
+		course2.SteTeacherName("王淑霞");
+		course2.GetTeacherName();
+```
 ***
-
 利用在上面创建的课程中和授课教师相关的属性来创建两个教师对象：
-``Teacher teacher1 = new Teacher();
+```java
+Teacher teacher1 = new Teacher();
 		teacher1.SetID(1);                     //教师编号
 		teacher1.GetID();
 		teacher1.SetCourse(course1.CourseName);//JAVA
@@ -60,11 +61,11 @@ java实验学生选课
 		teacher2.GetName();
 		teacher2.SetSex("女");
 		teacher2.GetSex();
-``
+```
 ***
-
 实现交互式输入学生信息：
-``Scanner in = new Scanner(System.in);
+```java
+Scanner in = new Scanner(System.in);
 		Students student = new Students();
 		System.out.println("请输入你的id：");
 		student.id = in.nextInt();
@@ -74,10 +75,11 @@ java实验学生选课
 		Scanner in2 = new Scanner(System.in);
 		System.out.println("请输入你所选的课程号：");
 		long SelectedID = in2.nextLong();
-``
+```
 ***
 根据学生输入的课程号来匹配所选课程信息，并将完整的选课信息打印出来：
-``if(SelectedID == 1001) {
+```java
+if(SelectedID == 1001) {
 			System.out.println("以下是你的选课信息：");
 			System.out.println("学生姓名："+student.name);
 			System.out.println("学生ID："+student.id);
@@ -105,10 +107,11 @@ java实验学生选课
 		else {
 			System.out.println("输入错误！");
 			}
-``
+```
 ***
 最后加入一个是否退课的选项：
-``System.out.println("是否退课？（请输入Y或N）");
+``java
+System.out.println("是否退课？（请输入Y或N）");
 		Scanner in3 = new Scanner(System.in);
 		String YoN = in3.next();
 		if("Y".equals(YoN)) {
@@ -130,7 +133,7 @@ java实验学生选课
 		else {
 			System.out.println("输入错误！");
 		}
-``
+```
 
 ##实验结果
 
