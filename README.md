@@ -18,7 +18,7 @@ java实验学生选课
 
 ## 核心方法和代码
 都是关于获取参数的简单方法，最后在XuankeG类中直接创建两个课程对象：
-``Course course1 = new Course(1001);
+    ``Course course1 = new Course(1001);
 		course1.SetCourseName("JAVA");
 		course1.GetCourseName();
 		course1.SetClassroom("101");
